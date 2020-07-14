@@ -2,6 +2,7 @@
  * Start Bootstrap - Stylish Portfolio v5.0.8 (https://startbootstrap.com/themes/stylish-portfolio)
  * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-stylish-portfolio/blob/master/LICENSE)
+ * Font made from <a href="http://www.onlinewebfonts.com">oNline Web Fonts</a>is licensed by CC BY 3.0
  */
 
 body,
@@ -14,17 +15,39 @@ body {
   font-family: 'Source Sans Pro';
 }
 
+#mainNavbar{
+  font-size:1.5rem;
+  font-weight: 300;
+}
+
+#mainNavbar .nav-link{
+  color:white;
+}
+
+#mainNavbar .nav-link:hover {
+  color:#5c4de4;
+  font-weight: 600;
+}
+
+#navbar-brand {
+  color: #5c4de4;
+  width:140;
+  height:30;
+}
+
 .btn-xl {
   padding: 1.25rem 2.5rem;
 }
 
 .content-section {
-  padding-top: 7.5rem;
+  padding-top: 5rem;
   padding-bottom: 7.5rem;
 }
 
 .content-section-heading h2 {
-  font-size: 3rem;
+  font-size: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .content-section-heading h3 {
@@ -87,22 +110,22 @@ h6 {
 }
 
 .masthead {
-  min-height: 30rem;
+  min-height: 5rem;
   position: relative;
   display: table;
   width: 100%;
   height: auto;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%),
-    url("../images/gbtb-skyline.jpg");
+    url("../images/merlion-mask.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .masthead h1 {
-  font-size: 4rem;
+  font-size: 2rem;
   margin: 0;
   padding: 0;
 }
@@ -230,15 +253,15 @@ h6 {
   max-width: 30rem;
 }
 
-.portfolio-item {
+.video-item {
   display: block;
   position: relative;
   overflow: hidden;
-  max-width: 530px;
-  margin: auto auto 1rem;
+  max-width: 450px;
+  margin: auto auto;
 }
 
-.portfolio-item .caption {
+.video-item .caption {
   display: flex;
   height: 100%;
   width: 100%;
@@ -249,28 +272,28 @@ h6 {
   z-index: 1;
 }
 
-.portfolio-item .caption .caption-content {
+.video-item .caption .caption-content {
   color: #fff;
   margin: auto 2rem 2rem;
 }
 
-.portfolio-item .caption .caption-content h2 {
+.video-item .caption .caption-content h2 {
   font-size: 0.8rem;
   text-transform: uppercase;
 }
 
-.portfolio-item .caption .caption-content p {
+.video-item .caption .caption-content p {
   font-weight: 300;
   font-size: 1.2rem;
 }
 
 @media (min-width: 992px) {
-  .portfolio-item {
+  .video-item {
     max-width: none;
     margin: 0;
   }
 
-  .portfolio-item .caption {
+  .video-item .caption {
     transition: background-color 0.7s, -webkit-clip-path 0.25s ease-out;
     transition: clip-path 0.25s ease-out, background-color 0.7s;
     transition: clip-path 0.25s ease-out, background-color 0.7s, -webkit-clip-path 0.25s ease-out;
@@ -278,14 +301,14 @@ h6 {
     clip-path: inset(0px);
   }
 
-  .portfolio-item .caption .caption-content {
+  .video-item .caption .caption-content {
     transition: opacity 0.25s;
     margin-left: 5rem;
     margin-right: 5rem;
     margin-bottom: 5rem;
   }
 
-  .portfolio-item img {
+  .video-item img {
     transition: -webkit-clip-path 0.25s ease-out;
     transition: clip-path 0.25s ease-out;
     transition: clip-path 0.25s ease-out, -webkit-clip-path 0.25s ease-out;
@@ -293,12 +316,12 @@ h6 {
     clip-path: inset(-1px);
   }
 
-  .portfolio-item:hover img {
+  .video-item:hover img {
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
 
-  .portfolio-item:hover .caption {
+  .video-item:hover .caption {
     background-color: rgba(29, 128, 159, 0.9);
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
@@ -387,4 +410,15 @@ a:active {
 
 .text-secondary {
   color: #ecb807 !important;
+}
+
+.btn-outline-success{
+  color:#5c4de4;
+  border-color: #5c4de4;
+}
+
+.btn-outline-success:hover{
+  background-color:#5c4de4;
+  color:white;
+  border-color:#5c4de4;
 }
