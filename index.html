@@ -17,19 +17,15 @@
     <link href="css/website.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
         rel="stylesheet" type="text/css">
-    <link href="//db.onlinewebfonts.com/c/0b28d43e90a11a93d935b305ff2cefb2?family=Font+Awesome+5+Pro" rel="stylesheet"
-        type="text/css" />
-    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/simple-line-icons.css" rel="stylesheet" type="text/css">
 
     <!-- Custom CSS -->
     <link href="css/website.css" rel="stylesheet">
 
 </head>
 
-
-
 <!-- Navigation -->
-<nav id="mainNavbar" class="navbar navbar-expand-lg navbar-light p fixed-top">
+<nav id="mainNavbar" class="navbar navbar-expand-lg navbar-light fixed-top">
     <a class="navbar-brand" href="#"><img src="/images/logo_final_black-low.png" height="30" width="120" alt="locomole text logo"></a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navLinks" aria-controls="navLinks"
@@ -123,7 +119,7 @@
         <div class="row">
             <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
                 <span class="service-icon rounded-circle mx-auto mb-3">
-                    <i class="icon-screen-smartphone"></i>
+                    <i class="fa fa-download" aria-hidden="true"></i>
                 </span>
                 <h4>
                     <strong>Quick e-guides</strong>
@@ -132,7 +128,7 @@
             </div>
             <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
                 <span class="service-icon rounded-circle mx-auto mb-3">
-                    <i class="icon-pencil"></i>
+                    <i class="fa fa-play-circle" aria-hidden="true"></i>
                 </span>
                 <h4>
                     <strong>Video tutorials</strong>
@@ -141,7 +137,7 @@
             </div>
             <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
                 <span class="service-icon rounded-circle mx-auto mb-3">
-                    <i class="icon-like"></i>
+                 <i class="fa fa-users" aria-hidden="true"></i>
                 </span>
                 <h4>
                     <strong>Online community</strong>
@@ -150,7 +146,7 @@
             </div>
             <div class="col-lg-3 col-md-6">
                 <span class="service-icon rounded-circle mx-auto mb-3">
-                    <i class="icon-mustache"></i>
+                    <i class="fa fa-ticket" aria-hidden="true"></i>
                 </span>
                 <h4>
                     <strong>Submit ticket</strong>
@@ -225,6 +221,8 @@
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pxoQqzIfuuM" alt="..."></iframe>
             <div class="card-body">
                 <h5 class="card-title text-info">Kampong Glam Amazing Race</h5>
+                </h5>
+                
                             <span class="badge badge-pill badge-primary">Augmented Reality</span>
                             <span class="badge badge-pill badge-info">Food</span>
                             <span class="badge badge-pill badge-dark">Adventure</span>
@@ -232,7 +230,7 @@
             </div>
        
             <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+                <small class="text-muted">Last updated 10 mins ago</small>
             </div>
         </div>
         <div class="card">
@@ -244,7 +242,7 @@
                 <p class="card-text py-3">Experience the murals come alive and 360 immersive tour in a HDB flat back in 1970s. Are you ready to travel through time?</p>
             </div>
             <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+                <small class="text-muted">Last updated 1 day ago</small>
             </div>
         </div>
         <div class="card">
@@ -259,23 +257,71 @@
             </div>
 
             <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+                <small class="text-muted">Last updated 1 week ago</small>
             </div>
         </div>
     </div>
 
 </section>
 
-<!-- Map -->
-<div id="contact" class="map">
-    <iframe
-        src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-    <br />
-    <small>
-        <a
-            href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-    </small>
+<!-- Submit Help Ticket -->
+<section class="submit-ticket-section">
+        <div class="container">
+            <div class="content-section-heading text-center">
+                <h2 class="mb-5">Submit Ticket</h2>
+<form>
+      <div class="form-row">
+          <div class="form-group col-md-6">
+              <label for="inputName">Name</label>
+              <input type="name" class="form-control" id="inputName" placeholder="e.g. John">
+          </div>
+          <div class="form-group col-md-6">
+              <label for="inputEmail">Email</label>
+              <input type="email" class="form-control" id="inputEmail" placeholder="e.g. abc@email.com">
+          </div>
+      </div>
+    <div class="form-group">
+        <label for="exampleFormControlSelect1">Category</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+            <option>Select one of the following</option>
+            <option>Refunds & Cancellations</option>
+            <option>App Download & Usage</option>
+            <option>Business Opportunities & Partnerships</option>
+            <option>Feedback</option>
+            <option>Others</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlSelect2">Add image/media file</label>
+            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1">Description</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Type your issue here..."
+            rows="3"></textarea>
+    </div>
+     <div class="form-group">
+         <div class="form-check">
+             <input class="form-check-input" type="checkbox" id="gridCheck">
+             <label class="form-check-label" for="gridCheck">
+                 I agree with the <a href="https://www.locomole.com/terms-of-use" target="_blank">terms of use</a>
+                 and <a href="https://www.locomole.com/policy" target="_blank"> privacy policy</a> of Locomole
+             </label>
+         </div>
+     </div>
+     <button type="submit" class="btn btn-primary mb-5">Submit</button>
+</form>
+</section>
+
+<!-- Locate Us-->
+<section class="locate-us bg-primary">
+<div id="contact" class="map py-5"> 
+       <div class="content-section-heading text-center text-white">
+           <h2 class="mb-5">Locate Us</h2>
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7218442004796!2d103.8450651501745!3d1.3432925619662475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da171ac0e84c4d%3A0x4c354b0a114d7d06!2sLocoMole%20Self-Guided%20Walking%20Tours!5e0!3m2!1sen!2ssg!4v1594902048016!5m2!1sen!2ssg"</iframe>
 </div>
+</div>
+</section>
 
 <!-- Footer -->
 <footer class="footer text-center">
@@ -297,7 +343,7 @@
                 </a>
             </li>
         </ul>
-        <p class="text-muted small mb-0">Copyright &copy; Your Website 2020</p>
+        <p class="text-muted small mb-0">Copyright &copy; Locomole 2020</p>
     </div>
 </footer>
 

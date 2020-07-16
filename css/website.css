@@ -15,24 +15,24 @@ body {
   font-family: 'Source Sans Pro';
 }
 
-#mainNavbar{
-  font-size:1.5rem;
+#mainNavbar {
+  font-size: 1.5rem;
   font-weight: 300;
 }
 
-#mainNavbar .nav-link{
-  color:white;
+#mainNavbar .nav-link {
+  color: white;
 }
 
 #mainNavbar .nav-link:hover {
-  color:#5c4de4;
+  color: #5c4de4;
   font-weight: 600;
 }
 
 #navbar-brand {
   color: #5c4de4;
-  width:140;
-  height:30;
+  width: 140;
+  height: 30;
 }
 
 .btn-xl {
@@ -118,7 +118,7 @@ h6 {
   padding-top: 3rem;
   padding-bottom: 2rem;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%),
-    url("../images/merlion-mask.jpg");
+    url("../images/singapore\ highway.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -126,6 +126,7 @@ h6 {
 
 .masthead h1 {
   font-size: 2rem;
+  color: white;
   margin: 0;
   padding: 0;
 }
@@ -412,13 +413,29 @@ a:active {
   color: #ecb807 !important;
 }
 
-.btn-outline-success{
-  color:#5c4de4;
+.btn-outline-success {
+  color: #5c4de4;
   border-color: #5c4de4;
 }
 
-.btn-outline-success:hover{
-  background-color:#5c4de4;
-  color:white;
-  border-color:#5c4de4;
+.btn-outline-success:hover {
+  background-color: #5c4de4;
+  color: white;
+  border-color: #5c4de4;
+}
+
+.form-row{
+  text-align: left;
+  font-weight: 600;
+  padding: 0.5rem;
+}
+
+.form-group{
+  text-align: left;
+  font-weight: 600;
+  padding: 0.5rem;
+}
+
+.form-check{
+  font-weight: 400;
 }
