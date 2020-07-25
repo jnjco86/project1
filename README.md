@@ -1,37 +1,47 @@
-## Welcome to GitHub Pages
+## Welcome to Locomole Help Centre
 
-You can use the [editor on GitHub](https://github.com/jnjco86/project1/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### **Objective**
 
-### Markdown
+To set up an help centre for a local travel experiential mobile app, Locomole. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+!(images/singaporemap.png)
 
-```markdown
-Syntax highlighted code block
+### **Target Audience**
 
-# Header 1
-## Header 2
-### Header 3
+1. Users who have made bookings/purchases from Locomole
+2. Locals and travellers to explore and discover Singapore
+3. Existing and prospective partners and merchants 
 
-- Bulleted
-- List
+### **Problem Statement**
 
-1. Numbered
-2. List
+To have a one-stop service to cater for all our users, B2B, B2B2C and B2C segments. 
 
-**Bold** and _Italic_ and `Code` text
+### **UX Design Approach**
+Based on our heatmap study of interactions on our existing website, the most interactions were at the top nav bar and the footer. 
 
-[Link](url) and ![Image](src)
-```
+Key design consideration is to allow users to find help based on their persona needs and allow users the fastest way to search for solutions. 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Create a **clear visual hierarchy** that relies on prominence (alternate colour segment for each section), grouping (header with sub-text, use of badges, to provide cues.
 
-### Jekyll Themes
+Stick to **conventions** unless you know you have a better idea and everyone you show it to agrees.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jnjco86/project1/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+**Make obvious what is clickable** on a page, and break up pages into clearly defined areas.
 
-### Support or Contact
+Form design consideration:
+- Direct the issue to the right department
+- Data protection (only necessary information and provide consent)
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+
+### **Design for Accessibility**
+
+A role attribute is provided to distinguish a series of button groups A series of buttons Ensure correct role and provide a label
+
+In order for assistive technologies (such as screen readers) to convey that a series of buttons is grouped, an appropriate role attribute needs to be provided. For button groups, this would be role="group", while toolbars should have a role="toolbar".
+
+In addition, groups and toolbars should be given an explicit label, as most assistive technologies will otherwise not announce them, despite the presence of the correct role attribute. In the examples provided here, we use aria-label, but alternatives such as aria-labelledby can also be used.
+
+
+
+### **User Testing**

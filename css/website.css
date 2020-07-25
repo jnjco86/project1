@@ -25,12 +25,12 @@ body {
 }
 
 #mainNavbar .nav-link:hover {
-  color: #5c4de4;
+  color: #1D809F;
   font-weight: 600;
 }
 
 #navbar-brand {
-  color: #5c4de4;
+  color: #1D809F;
   width: 140;
   height: 30;
 }
@@ -58,10 +58,13 @@ body {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6 {
   font-weight: 700;
+}
+
+h4 {
+  font-weight: 300;
 }
 
 .text-faded {
@@ -414,28 +417,72 @@ a:active {
 }
 
 .btn-outline-success {
-  color: #5c4de4;
-  border-color: #5c4de4;
+  color: #1D809F;
+  border-color: #1D809F;
 }
 
 .btn-outline-success:hover {
-  background-color: #5c4de4;
+  background-color: #1D809F;
   color: white;
-  border-color: #5c4de4;
+  border-color: #1D809F;
 }
 
-.form-row{
+.form-row {
   text-align: left;
   font-weight: 600;
   padding: 0.5rem;
 }
 
-.form-group{
+.form-group {
   text-align: left;
   font-weight: 600;
   padding: 0.5rem;
 }
 
-.form-check{
+.form-check {
   font-weight: 400;
+}
+
+input[type=text] {
+  width: 200px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('f');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 100%;
+}
+
+#mainNavbar.scrolled {
+  background-color: white !important;
+  transition: background-color 500ms linear;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #e3edf7;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 25px;
+  letter-spacing: 4px;
+  padding: 200px 0 100px;
+  color: #555;
+  text-align: center;
+
 }
