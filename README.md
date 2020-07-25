@@ -1,23 +1,26 @@
-## Welcome to Locomole Help Centre
+# Welcome to Locomole Help Centre
 
+[TOC]
 
-### **Objective**
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
+## **Objective**
 
 To set up an help centre for a local travel experiential mobile app, Locomole. 
 
 !(images/singaporemap.png)
 
-### **Target Audience**
+## **Target Audience**
 
 1. Users who have made bookings/purchases from Locomole
 2. Locals and travellers to explore and discover Singapore
 3. Existing and prospective partners and merchants 
 
-### **Problem Statement**
+## **Problem Statement**
 
 To have a one-stop service to cater for all our users, B2B, B2B2C and B2C segments. 
 
-### **UX Design Approach**
+## **UX Design Approach**
 Based on our heatmap study of interactions on our existing website, the most interactions were at the top nav bar and the footer. 
 
 Key design consideration is to allow users to find help based on their persona needs and allow users the fastest way to search for solutions. 

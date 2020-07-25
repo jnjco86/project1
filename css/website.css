@@ -473,7 +473,7 @@ input[type=text]:focus {
 }
 
 body {
-  background: #e3edf7;
+  background: #fff;
 }
 
 h1 {
@@ -485,4 +485,8 @@ h1 {
   color: #555;
   text-align: center;
 
+}
+
+.contact {
+  color: white;
 }
