@@ -28,9 +28,8 @@
 
 Screen recording of the entire website
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JhLuK-DOb3I" frameborder="0"></iframe>
 
-![](images/website-preview.gif)
+![preview](images/website-preview.gif)
 
 ## **Objective**
 
