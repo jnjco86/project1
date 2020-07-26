@@ -4,7 +4,7 @@
 <head>
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -38,7 +38,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto mt-lg-0">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="https://www.locomole.com">HOME <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="https://www.locomole.com">DISCOVER</a>
@@ -122,11 +122,10 @@
                 </div>
             </div>
         </div>
-        </div>
     </section>
 
     <!-- Services -->
-    <section class="content-section bg-primary text-white text-center" id="services">
+    <section class="content-section-alt text-white text-center" id="services">
         <div class="container">
             <div class="content-section-heading">
                 <h2 class="mb-5">Frequently Asked Questions</h2>
@@ -209,7 +208,7 @@
                                     <p class="mb-0">Check out the latest promotions and redeem yours today </p>
                                 </div>
                             </div>
-                            <img class="img-fluid" src="images/tong heng redeem.jpg" alt="mobile coupon">
+                            <img class="img-fluid" src="images/tong-heng-redeem.jpg" alt="mobile coupon">
                         </a>
                     </div>
                     <div class="col-lg-6">
@@ -220,16 +219,17 @@
                                     <p class="mb-0">Stay ahead with the latest trends in travel and technology</p>
                                 </div>
                             </div>
-                            <img class="img-fluid" src="images/man shock mobile.jpg"
+                            <img class="img-fluid" src="images/man-shock-mobile.jpg"
                                 alt="man shocked looking at mobile">
                         </a>
                     </div>
                 </div>
             </div>
+        </div>
     </section>
 
     <!-- Video tutorials -->
-    <section class="content-section bg-primary">
+    <section class="content-section-alt">
         <div class="content-section-heading">
             <h2 class="text-center mb-5 text-white">Latest Videos</h2>
             <div class="card-deck mx-5">
@@ -278,6 +278,7 @@
                 </div>
             </div>
     </section>
+
     <!-- Submit Help Ticket -->
     <section class="submit-ticket-section">
         <div class="container">
@@ -295,7 +296,7 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="">Category</label>
+                        <label for="category">Category</label>
                         <select class="form-control">
                             <option>Select one of the following</option>
                             <option>Refunds & Cancellations</option>
@@ -316,7 +317,7 @@
                     </div>
                     <div class="form-group">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <input class="form-check-input" type="checkbox" id="gridCheck" required>
                             <label class="form-check-label" for="gridCheck">
                                 I agree with the <a href="https://www.locomole.com/terms-of-use" target="_blank">terms
                                     of use</a> and <a href="https://www.locomole.com/policy" target="_blank"> privacy
@@ -331,29 +332,39 @@
     </section>
 
     <!-- Locate Us-->
-    <section class="locate-us bg-primary">
+    <section class="content-section-alt">
         <div id="contact" class="map py-5">
             <div class="content-section-heading text-center text-white">
                 <h2 class="mb-3">Locate Us</h2>
-                <div class="content-section-heading text-center text-white"></div>
-                <h4 class="mb-1"><strong>Locomole by LDR Technology</strong><br>
-                    1004 Toa Payoh North, #04-12<br>
-                    Singapore 318995<br><br>
+                <div class="content-section-heading text-center text-white">
+                    <h4 class="mb-1"><strong>Locomole by LDR Technology</strong><br>
+                        1004 Toa Payoh North, #04-12<br>
+                        Singapore 318995<br><br></h4>
 
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7218442004796!2d103.8450651501745!3d1.3432925619662475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da171ac0e84c4d%3A0x4c354b0a114d7d06!2sLocoMole%20Self-Guided%20Walking%20Tours!5e0!3m2!1sen!2ssg!4v1594902048016!5m2!1sen!2ssg"
-                        </iframe> </div> </div> </div> </section> <script
-                        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-                        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-                        crossorigin="anonymous"></script>
+                    <div id="map-container-google-1" class="map-container" height="400">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7218442004796!2d103.8450651501745!3d1.3432925619662475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da171ac0e84c4d%3A0x4c354b0a114d7d06!2sLocoMole%20Self-Guided%20Walking%20Tours!5e0!3m2!1sen!2ssg!4v1594902048016!5m2!1sen!2ssg"
+                            </iframe> </div> </div> </div> </div> </div> </section> <!-- Javascript-->
 
-                        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-                            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-                            crossorigin="anonymous"></script>
 
-                        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-                            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-                            crossorigin="anonymous"></script>
+                            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+                                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+                                crossorigin="anonymous"></script>
+
+                            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+                                integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+                                crossorigin="anonymous"></script>
+
+                            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+                                integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+                                crossorigin="anonymous"></script>
+
+                            <script>
+                                function myFunction() {
+                                    var x = document.getElementById("gridCheck").required;
+                                    document.getElementById("demo").innerHTML = x;
+                                }
+                            </script>
 
 </body>
 
