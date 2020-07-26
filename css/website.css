@@ -21,7 +21,7 @@ body {
 }
 
 #mainNavbar .nav-link {
-  color: white;
+  color: #1D809F;
 }
 
 #mainNavbar .nav-link:hover {
@@ -31,8 +31,7 @@ body {
 
 #navbar-brand {
   color: #1D809F;
-  width: 140;
-  height: 30;
+  font-weight: 600;
 }
 
 .btn-xl {
@@ -86,39 +85,13 @@ h4 {
   pointer-events: none;
 }
 
-.scroll-to-top {
-  position: fixed;
-  right: 15px;
-  bottom: 15px;
-  display: none;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  color: white;
-  background: rgba(52, 58, 64, 0.5);
-  line-height: 45px;
-}
-
-.scroll-to-top:focus,
-.scroll-to-top:hover {
-  color: white;
-}
-
-.scroll-to-top:hover {
-  background: #343a40;
-}
-
-.scroll-to-top i {
-  font-weight: 800;
-}
-
 .masthead {
   min-height: 5rem;
   position: relative;
   display: table;
   width: 100%;
   height: auto;
-  padding-top: 3rem;
+  padding-top: 5rem;
   padding-bottom: 2rem;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%),
     url("../images/singapore\ highway.jpg");
@@ -128,8 +101,9 @@ h4 {
 }
 
 .masthead h1 {
-  font-size: 2rem;
-  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
   margin: 0;
   padding: 0;
 }
@@ -150,7 +124,7 @@ h4 {
     width: 50px;
     height: 50px;
     text-align: center;
-    color: #fff;
+    color: #1D809F;
     background: rgba(52, 58, 64, 0.5);
     line-height: 50px;
     z-index: 999;
@@ -158,7 +132,7 @@ h4 {
 
   .menu-toggle:focus,
   .menu-toggle:hover {
-    color: #fff;
+    color: rgb(100, 92, 92);
   }
 
   .menu-toggle:hover {
@@ -377,7 +351,7 @@ h4 {
     font-weight: 400;
   }
 
-  input[type=text] {
+  .input[type=text] {
     width: 200px;
     box-sizing: border-box;
     border: 1px solid #ccc;
@@ -392,7 +366,7 @@ h4 {
     transition: width 0.4s ease-in-out;
   }
 
-  input[type=text]:focus {
+  .input[type=text]:focus {
     width: 100%;
   }
 
