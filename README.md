@@ -4,6 +4,18 @@
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
+<!-- code_chunk_output -->
+
+- [**Overview**](#overview)
+- [**Objective**](#objective)
+- [**Target Audience**](#target-audience)
+- [**Problem Statement**](#problem-statement)
+- [**UX Design Approach**](#ux-design-approach)
+- [**Design for Accessibility**](#design-for-accessibility)
+- [**Testing Conducted**](#testing-conducted)
+
+<!-- /code_chunk_output -->
+
 - [**Overview**](#overview)
 - [**Objective**](#objective)
 - [**Target Audience**](#target-audience)
@@ -16,7 +28,9 @@
 
 Screen recording of the entire website
 
-![website video](images/website-preview.gif)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JhLuK-DOb3I" frameborder="0"></iframe>
+
+![](images/website-preview.gif)
 
 ## **Objective**
 
