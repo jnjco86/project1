@@ -1,4 +1,4 @@
-# Welcome to Locomole Help Centre {ignore=true}
+#Welcome to Locomole Help Centre
 
 [TOC]
 
@@ -6,14 +6,13 @@
 
 <!-- code_chunk_output -->
 
-- [Welcome to Locomole Help Centre {ignore=true}](#welcome-to-locomole-help-centre-ignoretrue)
-  - [**Overview**](#overview)
-  - [**Objective**](#objective)
-  - [**Target Audience**](#target-audience)
-  - [**Problem Statement**](#problem-statement)
-  - [**UX Design Approach**](#ux-design-approach)
-    - [**Design for Accessibility**](#design-for-accessibility)
-    - [**Testing Conducted**](#testing-conducted)
+- [**Overview**](#overview)
+- [**Objective**](#objective)
+- [**Target Audience**](#target-audience)
+- [**Problem Statement**](#problem-statement)
+- [**UX Design Approach**](#ux-design-approach)
+  - [**Design for Accessibility**](#design-for-accessibility)
+  - [**Testing Conducted**](#testing-conducted)
 
 <!-- /code_chunk_output -->
 
