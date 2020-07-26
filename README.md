@@ -4,7 +4,6 @@
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
-<!-- code_chunk_output -->
 - [**Overview**](#overview)
 - [**Objective**](#objective)
 - [**Target Audience**](#target-audience)
@@ -12,13 +11,12 @@
 - [**UX Design Approach**](#ux-design-approach)
 - [**Design for Accessibility**](#design-for-accessibility)
 - [**Testing Conducted**](#testing-conducted)
-<!-- /code_chunk_output -->
 
 ## **Overview**
 
 Screen recording of the entire website
 
-![website](images/website-preview.gif)
+![website video](images/website-preview.gif)
 
 ## **Objective**
 
@@ -76,7 +74,7 @@ Key design consideration is to allow users to find help based on their persona n
 - [x] Based on our web analytics of the corporate website, visitors tend to scroll through content up till half the page. The rest of the website is designed with the objective to generate interest from users. 
 - [x] Further development would be to integrate into the corporate website and use tracking for the user interaction with the various elements of the website to assess the overall design effectiveness
 
-@import "images/videos.jpg"
+![video](images/videos.jpg)
   
 **Support form design consideration**:
 
