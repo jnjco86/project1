@@ -6,22 +6,13 @@
 
 <!-- code_chunk_output -->
 
-- [**Overview**](#overview)
-- [**Objective**](#objective)
-- [**Target Audience**](#target-audience)
-- [**Problem Statement**](#problem-statement)
-- [**UX Design Approach**](#ux-design-approach)
-  - [**Design for Accessibility**](#design-for-accessibility)
-  - [**Testing Conducted**](#testing-conducted)
-
 <!-- /code_chunk_output -->
 
 ## **Overview**
 
 Screen recording of the entire website
 
-
-@import "images/website-preview.GIF"
+![Image of website] (/images/website-preview.GIF)
 
 ## **Objective**
 
@@ -94,14 +85,14 @@ Key design consideration is to allow users to find help based on their persona n
 
 - [x] Included the option for user to add screenshot, especially when there are error messages or app crashes
 
-### **Design for Accessibility**
+## **Design for Accessibility**
 
 Modern versions of assistive technologies will announce CSS generated content, as well as specific Unicode characters. To avoid unintended and confusing output in screen readers (particularly when icons are used purely for decoration), we hide them with the aria-hidden="true" attribute.
 
 In order for assistive technologies (such as screen readers) to convey that a series of buttons is grouped, an appropriate role attribute needs to be provided. For button groups, this would be role="group", while toolbars should have a role="toolbar".
 
 
-### **Testing Conducted**
+## **Testing Conducted**
 
 
 
