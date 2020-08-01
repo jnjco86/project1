@@ -1,13 +1,7 @@
 {
-  "folders": [
-	{
-		"path": "."
-	},
-	{
-		"path": "../Downloads/fontawesome-free-5.13.1-web/webfonts"
-	}
-],
-  "settings": {
-    "liveServer.settings.multiRootWorkspaceName": "project1"
-  }
+    "folders": [
+        {
+            "path": "."
+        }
+    ]
 }

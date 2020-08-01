@@ -6,13 +6,14 @@
 
 <!-- code_chunk_output -->
 
-- [**Overview**](#overview)
-- [**Objective**](#objective)
-- [**Target Audience**](#target-audience)
-- [**Problem Statement**](#problem-statement)
-- [**UX Design Approach**](#ux-design-approach)
-- [**Design for Accessibility**](#design-for-accessibility)
-- [**Testing Conducted**](#testing-conducted)
+- [Welcome to Locomole Help Centre](#welcome-to-locomole-help-centre)
+  - [**Overview**](#overview)
+  - [**Objective**](#objective)
+  - [**Target Audience**](#target-audience)
+  - [**Problem Statement**](#problem-statement)
+  - [**UX Design Approach**](#ux-design-approach)
+  - [**Design for Accessibility**](#design-for-accessibility)
+  - [**Testing Conducted**](#testing-conducted)
 
 <!-- /code_chunk_output -->
 
