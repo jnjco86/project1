@@ -2,6 +2,18 @@ Welcome to Locomole Help Centre
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
+<!-- code_chunk_output -->
+
+- [**Overview**](#overview)
+- [**Objective**](#objective)
+- [**Target Audience**](#target-audience)
+- [**Problem Statement**](#problem-statement)
+- [**UX Design Approach**](#ux-design-approach)
+- [**Design for Accessibility**](#design-for-accessibility)
+- [**Testing Conducted**](#testing-conducted)
+
+<!-- /code_chunk_output -->
+
 - [**Overview**](#overview)
 - [**Objective**](#objective)
 - [**Target Audience**](#target-audience)
@@ -21,6 +33,21 @@ Screen recording of the entire website
 To set up an help centre for a local travel experiential augmented reality (AR) mobile app, Locomole. 
 
 ![singapore](images/singaporemap.png)
+
+Features of the App:
+Explore Street Arts in Chinatown with Augmented Reality
+
+| S/N | Feature                                                              | App Screenshot                                              |
+| --- | -------------------------------------------------------------------- | ----------------------------------------------------------- |
+| 1   | Countries and Languages                                              | ![demo](demo/categories%20countries.gif)                    |
+| 2   | Select Trail                                                         | ![demo](demo/street%20arts.gif)                             |
+| 3   | Navigate with Augmented Reality                                      | ![demo](demo/AR%20wayfinding%20feature.gif)                 |
+| 4   | Make murals come alive with AR                                       | ![demo](demo/dragon%20AR.gif)![demo](demo/AR%20student.gif) |
+| 5   | Get tips for things to do on a budget                                | ![demo](demo/to-do.gif)                                     |
+| 6   | Know local stories behind places                                     | ![demo](demo/local%20stories.gif)                           |
+| 7   | Play a game to learn about local culture - how to order local drinks | ![demo](demo/game.gif)                                      |
+| 8   | Redeem discount offers                                               | ![demo](demo/coupon.gif)                                    |
+
 
 
 ## **Target Audience**
