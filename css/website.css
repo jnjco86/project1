@@ -177,7 +177,7 @@ h4 {
 
   .video-item .caption .caption-content {
     color: #fff;
-    margin: auto;
+    margin: auto 2rem 2rem;
   }
 
   .video-item .caption .caption-content h2 {
@@ -190,7 +190,7 @@ h4 {
     font-size: 1.2rem;
   }
 
-  @media (min-width: 576px) {
+  @media (min-width: 992px) {
     .video-item {
       max-width: none;
       margin: 0;
