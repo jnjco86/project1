@@ -2,18 +2,6 @@ Welcome to Locomole Help Centre
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
-<!-- code_chunk_output -->
-
-- [**Overview**](#overview)
-- [**Objective**](#objective)
-- [**Target Audience**](#target-audience)
-- [**Problem Statement**](#problem-statement)
-- [**UX Design Approach**](#ux-design-approach)
-- [**Design for Accessibility**](#design-for-accessibility)
-- [**Testing Conducted**](#testing-conducted)
-
-<!-- /code_chunk_output -->
-
 - [**Overview**](#overview)
 - [**Objective**](#objective)
 - [**Target Audience**](#target-audience)
