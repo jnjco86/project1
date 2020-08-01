@@ -14,8 +14,7 @@ Welcome to Locomole Help Centre
 
 Screen recording of the entire website
 
-
-![preview](images/website-preview.gif)
+![demo](demo/website-preview.GIF)
 
 ## **Objective**
 
